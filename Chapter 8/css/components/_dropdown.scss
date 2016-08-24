@@ -1,0 +1,16 @@
+/* dropdown */
+
+.dropdown-menu {
+	color: $primary-text;
+}
+
+.dropdown-item:focus, 
+.dropdown-item:hover {
+	color: $primary-text;
+	background-color: $secondary-background;
+}
+
+.open > .btn-primary.dropdown-toggle:focus {
+	background-color: $purple2;
+	border-color: $purple2;
+}

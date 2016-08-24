@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Home | Learning Bootstrap 4</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-faded m-b-2">
+  <a class="navbar-brand" href="#">Learning Bootstrap 4</a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+  <form class="form-inline pull-xs-right">
+    <input class="form-control" type="text" placeholder="Search">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+</nav>
+
+    <div class="container">
+  <!-- page title //-->
+  <div class="row m-t-3">
+    <div class="col-md-12">
+      <h1>Blog</h1>
+    </div>
+  </div>
+  <!-- page body //-->
+  <div class="row m-t-3">
+    <div class="col-md-8">
+    	<div class="card">
+        <img class="card-img-top img-fluid" src="img/image.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Post title</h4>
+          <p><small>Posted by <a href="#">Admin</a> on January 1, 2016 in <a href="#">Category</a></small></p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Post title</h4>
+          <p><small>Posted by <a href="#">Admin</a> on January 1, 2016 in <a href="#">Category</a></small></p>
+          <p><a id="tooltip-link" data-toggle="tooltip" title="This is a tooltip!">Pellentesque habitant morbi</a> tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <button type="button" id="tooltip-button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" data-original-title="tooltip">This is a button tooltip!</button>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="img/image.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Post title <span class="label label-success">Updated</span></h4>
+          <p><small>Posted by <a href="#">Admin</a> on January 1, 2016 in <a href="#">Category</a></small></p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">Post title</h4>
+          <p><small>Posted by <a href="#">Admin</a> on January 1, 2016 in <a href="#">Category</a></small></p>
+          <p><a id="popover-link" data-toggle="popover" title="My Popover" data-content="This is the content of my popover which can be longer than a tooltip">This is a popover</a>. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+          <p><button type="button" id="popover-button" class="btn btn-primary" data-toggle="popover" title="Button Popover" data-content="This is a button popover example">Popover Button</button></p>
+          <h5>Collapsable Section</h5>
+          <p><a class="btn btn-primary" data-toggle="collapse" href="#collapse-link" aria-expanded="false">Collapse Link Trigger</a></p>
+          <div class="collapse" id="collapse-link">
+            <p class="alert alert-warning">This is some collapsable text.</p>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul class="pager m-t-3">
+          <li class="pager-prev"><a href="#">Older Posts</a></li>
+          <li class="pager-next disabled"><a href="#">Newer Posts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-md-4 hidden-md-down">
+    	<div class="card card-block">
+        <h5 class="card-title">Recent Posts</h5>
+        <div class="list-group">
+          <button type="button" class="list-group-item">Cras justo odio</button>
+          <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+          <button type="button" class="list-group-item">Morbi leo risus</button>
+          <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+          <button type="button" class="list-group-item">Vestibulum at eros</button>
+        </div>
+        <div class="m-t-1"><a href="#">View More</a></div>
+      </div>
+      <div class="card card-block">
+        <h5 class="card-title">Archives</h5>
+        <div class="list-group">
+          <button type="button" class="list-group-item">Cras justo odio</button>
+          <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+          <button type="button" class="list-group-item">Morbi leo risus</button>
+          <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+          <button type="button" class="list-group-item">Vestibulum at eros</button>
+        </div>
+        <div class="m-t-1"><a href="#">View More</a></div>
+      </div>
+      <div class="card card-block">
+        <h5 class="card-title">Categories</h5>
+        <div class="list-group">
+          <button type="button" class="list-group-item">Cras justo odio</button>
+          <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+          <button type="button" class="list-group-item">Morbi leo risus</button>
+          <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+          <button type="button" class="list-group-item">Vestibulum at eros</button>
+        </div>
+        <div class="m-t-1"><a href="#">View More</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- mailing list //-->
+  <!-- mailing list //-->
+<div class="row m-t-3">
+  <div class="col-md-12">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+  </div>
+</div>
+</div>
+
+    <!-- footer //-->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			Learning Bootstrap 4 2016
+		</div>
+	</div>
+</div>
+
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $("#tooltip-link").tooltip();
+      $("#tooltip-button").tooltip();
+      $("#popover-link").popover();
+      $("#popover-button").popover();
+    </script>
+  </body>
+</html>
+
+      

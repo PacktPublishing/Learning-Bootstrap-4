@@ -1,0 +1,11 @@
+{
+	"index": {
+		"pageTitle": "Home"
+	},
+	"contact": {
+		"pageTitle": "Contact"
+	},
+	"blog-post": {
+		"pageTitle": "Blog Post"
+	}
+}

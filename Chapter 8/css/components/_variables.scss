@@ -1,0 +1,63 @@
+/* variables */
+
+/* color palette */
+$red: #e74c3c;
+$red2: #c0392b;
+$blue: #3498db;
+$blue2: #2980b9;
+$green: #2ecc71;
+$green2: #27ae60;
+$yellow: #f1c40f;
+$yellow2: #f39c12;
+$purple: #9b59b6;
+$purple2: #8e44ad;
+$white: #fff;
+$off-white: #f5f5f5;
+$grey: #ccc;
+$dark-grey: #333;
+$black: #000;
+
+/* background colors */
+$primary-background: $white;
+$secondary-background: $off-white;
+$inverse-background: $black;
+
+/* typography */
+$body-copy: helvetica, arial, verdana, sans-serif;
+$heading-copy: helvetica, arial, verdana, sans-serif;
+$base-font-size: 16px;
+$font-size: 1em;
+$base-line-height: 1.75;
+
+/* text colors */
+$primary-text: $black;
+$light-text: $grey;
+$loud-text: $black;
+$inverse-text: $white;
+$code-text: $red;
+$pre-text: $blue;
+
+/* links */
+$primary-link-color: $purple;
+$primary-link-color-hover: $purple2;
+$primary-link-color-active: $purple2;
+
+/* border */
+$border-color: $grey;
+$border-size: 1px;
+$border-type: solid;
+$border-focus: $purple;
+
+/* layout */
+$margin: 1em;
+$padding: 1em;
+
+/* border-radius mixin */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+

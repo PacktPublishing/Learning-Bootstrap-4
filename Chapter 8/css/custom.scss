@@ -1,0 +1,67 @@
+/*
+body {
+	background: red;
+}
+*/
+
+/* 
+$background-color: #fff;
+$text-size: 16px;
+$font-face: helvetica, sans-serif;
+$margin: 1em;
+
+body {
+	background: $background-color;
+	font-size: $text-size;
+	font-family: $font-face;
+	margin: $margin;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: georgia, serif;
+}
+
+h2 {
+	font-size: $text-size;
+	font-family: $font-face;
+}
+*/
+
+/*
+$black: #000;
+$white: #fff;
+$red: #c00;
+
+$background-color: $white;
+$text-color: $black;
+$link-color: $red;
+*/
+
+@import "components/_variables.scss";
+
+.left-column {
+  width: 700px / 1000px * 100%;
+}
+
+.right-column {
+  width: 300px / 1000px * 100%;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@import "components/_buttons.scss";
+
+@import "components/_dropdown.scss";
+
+@import "components/_alerts.scss";
+
+@import "components/_typography.scss";
+
+
+

@@ -1,0 +1,80 @@
+/* buttons */
+
+/*
+.btn-primary {
+  background-color: green;
+}
+*/
+
+.btn {
+  background-color: $grey;
+  border-color: $grey;
+
+  @include border-radius(20px); 
+}
+
+.btn-primary {
+	background-color: $purple;
+	border-color: $purple;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: $purple2;
+	border-color: $purple2;
+}
+
+.btn-secondary {
+	background-color: $off-white;
+	border-color: $off-white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+	background-color: $grey;
+	border-color: $grey;
+}
+
+.btn-success {
+	background-color: $green;
+	border-color: $green;
+}
+
+.btn-success:hover,
+.btn-success:active {
+	background-color: $green2;
+	border-color: $green2;
+}
+
+.btn-info {
+	background-color: $blue;
+	border-color: $blue;
+}
+
+.btn-info:hover,
+.btn-info:active {
+	background-color: $blue2;
+	border-color: $blue2;
+}
+
+.btn-warning {
+	background-color: $yellow;
+	border-color: $yellow;
+}
+
+.btn-warning:hover,
+.btn-warning:active {
+	background-color: $yellow2;
+	border-color: $yellow2;
+}
+
+.btn-danger {
+	background-color: $red;
+	border-color: $red;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+	background-color: $red2;
+	border-color: $red2;
+}
