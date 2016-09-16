@@ -16,13 +16,11 @@ Although earlier versions will work, recommend latest version of OSX on a MAC an
 ###Softwares Requirements
 
 * A command line tool like Terminal or Cygwin  latest versions
-
 * A web browser, preferably Chrome, latest version
-
 * A text editor like Sublime Text or Notepad++ latest versions
 
 ###Related Books/Videos
 
 * [Building a Responsive Website with Bootstrap - Video](https://www.packtpub.com/web-development/building-responsive-website-bootstrap-video?utm_source=github&utm_medium=repoository&utm_campaign=9781782164982)
-
 * [Extending Bootstrap](https://www.packtpub.com/web-development/extending-bootstrap?utm_source=github&utm_medium=repository&utm_campaign=9781782168416)
+* [Bootstrap Site Blueprints](https://www.packtpub.com/web-development/bootstrap-site-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781782164524)
