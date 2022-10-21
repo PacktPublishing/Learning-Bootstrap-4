@@ -24,3 +24,7 @@ Although earlier versions will work, recommend latest version of OSX on a MAC an
 * [Building a Responsive Website with Bootstrap - Video](https://www.packtpub.com/web-development/building-responsive-website-bootstrap-video?utm_source=github&utm_medium=repoository&utm_campaign=9781782164982)
 * [Extending Bootstrap](https://www.packtpub.com/web-development/extending-bootstrap?utm_source=github&utm_medium=repository&utm_campaign=9781782168416)
 * [Bootstrap Site Blueprints](https://www.packtpub.com/web-development/bootstrap-site-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781782164524)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781782161844">https://packt.link/free-ebook/9781782161844 </a> </p>
